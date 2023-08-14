@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+body{
+
+    font-family: 'Open Sans', sans-serif;
+   
+}
+h1,h2,h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.upper-container{
+    background: url(./images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.header-button a{
+    color: black;
+    background-color: #fff;
+    padding: .8rem 4rem;
+    border-radius: 2rem;
+}
+.left-banner-link a{
+    color: white;
+    background-color: rgb(254, 82, 192);
+    padding: .8rem 4rem;
+    border-radius: 2rem;
+}
+
+.banner{
+    gap: 2rem;
+}
+.cards{
+    margin-top: 5rem;
+    gap: 3rem;
+}
+.carD{
+    gap: 3rem;
+    /* height: 20rem; */
+    border-radius: 1rem;
+}
+.card-left{
+
+    width: 40%;
+}
+.card-right{
+    width: 40%;
+}
+
+
+@media (max-width:768px){
+    .card-left{
+
+        width: 100%;
+    }
+    .card-right{
+        width: 100%;
+    }
+}
+.community{
+    width: 48%;
+    margin: 5rem auto -4rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: .8rem;
+    padding: 1rem 0 2rem 0;
+    z-index: 1;
+    position: relative;
+    box-shadow: 1px 8px 20px -4px rgba(0,0,0,.8);
+}
+.community h2{
+    font-size: 1.7rem;
+}
+footer{
+    background-color: rgb(0, 37, 46);
+    padding-top: 6rem;
+}
+.footer{
+    
+    
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-address{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+}
+.footer-address > img{
+    width: 10rem;
+}
+.footer-address span img{
+    margin-right: .6rem;
+}
+.location-img{
+   height: 1.3rem;
+}
+.footer-address p{
+    color: #fff;
+    display: inline-block;
+
+}
+.colorize-orange {
+    /* -webkit-filter: hue-rotate(40deg) saturate(0.5) brightness(390%) saturate(4);  */
+   filter: hue-rotate(40deg) saturate(0.5) brightness(390%) saturate(4); 
+   margin-bottom: 1rem;
+   
+ }
+
+.footer-menu1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+.footer a{
+    color: white;
+}
+.footer-menu2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    
+    
+}
+.footer-links i{
+    color: white;
+    padding: .4rem;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.last-footer p{
+    color: #fff;
+}
+
+@media (max-width:576px){
+    .header-logo{
+        width: 8.2rem;
+    }
+    .header-button a{
+        padding: .5rem 1.8rem;
+        border-radius: 1.7rem;
+        font-size: .7rem;
+    }
+    .community{
+        width: 90%;
+       
+    }
+    .community h2{
+        font-size: 1.2rem;
+     }
+     .left-banner-link a{
+        font-size: .7rem;
+        padding: .6rem 2.4rem;
+        border-radius: 1.8rem;
+    }
+    .footer-address{
+        width: 100%;
+    }
+    .footer-menu1{
+        width: 100%;
+        margin-left: -4rem;
+        
+    }
+    .footer-menu2{
+        width: 100%;
+        margin-left: -4rem;
+       
+    }
+    .footer-links{
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width:768px) and (min-width:576px){
+    .header-logo{
+
+        width: 10rem;
+    }
+    .header-button a{
+        padding: .6rem 3.5rem;
+        border-radius: 1.8rem;
+    }
+    .community{
+        width:75% ;
+       
+    }
+    .community h2{
+        font-size: 1.5rem;
+     }
+     .left-banner-link a{
+        font-size: .8rem;
+        padding: .5rem 2rem;
+        border-radius: 1.8rem;
+    }
+    .footer{
+        font-size: .7rem;
+    }
+    .last-footer{
+        font-size: .7rem;
+    }
+}
+@media (max-width:992px) and (min-width:768px){
+    .header-logo{
+        width: 12rem
+    }
+    .header-button a{
+        padding: .6rem 3.7rem;
+        border-radius: 1.8rem;
+    }
+    
+    .community h2{
+       font-size:1.2rem ;
+    }
+    .left-banner-link a{
+        font-size: .9rem;
+        padding: .6rem 2.2rem;
+        border-radius: 1.8rem;
+    }
+    .footer{
+        font-size: .8rem;
+    }
+    .last-footer{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width:1050px) and (min-width:992px){
+    .community h2{
+        font-size:1.4rem; ;
+     }
+     .community{
+        width: 65%;
+     }
+}
