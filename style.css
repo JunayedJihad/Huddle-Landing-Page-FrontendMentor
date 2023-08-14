@@ -50,6 +50,9 @@ h1,h2,h3{
     /* height: 20rem; */
     border-radius: 1rem;
 }
+.carD p{
+    color: rgb(130, 133, 138);
+}
 .card-left{
 
     width: 40%;
